@@ -40,4 +40,9 @@
 ## Android 小伙伴可能会需要了解的知识
 
 - DVM 以及 ART 是如何对 JVM 进行优化的
+
+https://www.kancloud.cn/alex_wsc/androids/473611
+https://www.jianshu.com/p/33968db4b08d
+
+https://www.cnblogs.com/renhui/p/11716975.html multieDex 优化的细节
   
