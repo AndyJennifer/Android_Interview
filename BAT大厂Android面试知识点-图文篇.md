@@ -25,10 +25,6 @@ categories:
 4. 《深入理解Java虚拟机JVM高级特性及最佳实践》 第七章 虚拟机类加载机制
 5. 《Java虚拟机规范 JAVA SE 8版》
 
-常见问题：
-
-
-
 #### 集合相关
 
 - ArrayList分析
@@ -40,27 +36,6 @@ categories:
 - LinkedHashSet分析
 - ArrayMap、SparseMap、与HashMap的对比
 - ConcurrentHashMap分析
-
-
-常考知识点：
-HashMap、Hashtable 与ConcurrentHashMap的联系与区别
-
-1、Hashtable与HashMap的联系与区别
-
-　　(1). HashMap和Hashtable的实现模板不同：虽然二者都实现了Map接口，但HashTable继承于Dictionary类，而HashMap是继承于AbstractMap。Dictionary是是任何可将键映射到相应值的类的抽象父类，而AbstractMap是基于Map接口的骨干实现，它以最大限度地减少实现此接口所需的工作。
-
-　　(2). HashMap和Hashtable对键值的限制不同：HashMap可以允许存在一个为null的key和任意个为null的value，但是HashTable中的key和value都不允许为null。
-
-　　(3). HashMap和Hashtable的线程安全性不同：Hashtable的方法是同步的，实现线程安全的Map；而HashMap的方法不是同步的，是Map的非线程安全实现。
-
-　　(4). HashMap和Hashtable的地位不同：在并发环境下，Hashtable虽然是线程安全的，但是我们一般不推荐使用它，因为有比它更高效、更好的选择ConcurrentHashMap；而单线程环境下，HashMap拥有比Hashtable更高的效率(Hashtable的操作都是同步的，导致效率低下)，所以更没必要选择它了。
-
-2、Hashtable与ConcurrentHashMap的联系与区别
-
-　　Hashtable和ConcurrentHashMap都可以用于并发环境，但是Hashtable的并发性能远不如ConcurrentHashMap，这种差异是由它们的底层实现决定的。在《彻头彻尾理解 ConcurrentHashMap》一文中，我们知道ConcurrentHashMap引入了分段锁机制，在默认理想状态下，ConcurrentHashMap可以支持16个线程执行并发写操作及任意数量线程的读操作；而Hashtable无论在读的过程中还是写的过程中都会锁定整个map，因此在并发效率上远不如ConcurrentHashMap。
-
-　　此外，Hashtable和ConcurrentHashMap对键值的限制相同，二者的key和value都不允许是null。
-
 
 推荐阅读:
 
@@ -314,6 +289,8 @@ HashMap、Hashtable 与ConcurrentHashMap的联系与区别
 
 1. [Android ListView工作原理完全解析，带你从源码的角度彻底理解](https://blog.csdn.net/guolin_blog/article/details/44996879)
 1. [深入理解Android中的缓存机制(二)RecyclerView跟ListView缓存机制对比](https://juejin.im/post/5a7569676fb9a063435eaf4c)
+1. [RecyclerView的新机制：预取（Prefetch）](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2017/0214/7113.html)
+1. [Android 屏幕刷新机制](https://juejin.im/post/6844903585424097293)
 
 #### 数据存储相关
 
