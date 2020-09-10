@@ -407,9 +407,10 @@ categories:
 
 推荐阅读：
 
+1. [Google 官方屏幕适配教程](https://developer.android.google.cn/guide/practices/compatibility)
 1. [拉丁吴老师的--Android 目前稳定高效的UI适配方案](https://mp.weixin.qq.com/s/X-aL2vb4uEhqnLzU5wjc4Q)
 1. [今日头条适配方式](https://mp.weixin.qq.com/s/d9QCoBP6kV9VSWvVldVVwA)
-1. [SmallestWidth 限定符适配方案](https://juejin.im/post/5ba197e46fb9a05d0b142c62)
+1. [Android 屏幕适配：最全面的解决方案](https://www.jianshu.com/p/ec5a1a30694b)
 
 ### Android打包知识点
 
