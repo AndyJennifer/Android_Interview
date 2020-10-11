@@ -18,3 +18,13 @@
 - Looper在主线程中死循环，为啥不会ANR？
 - Handler泄露的原因及正确写法
 - Handler中的同步屏障机制
+
+## Bitmap压缩机回收相关
+
+- Bitmap所占内存
+- 常用压缩图片方式
+- LruCache原理
+- DiskLruCache原理
+- LinkedHashMap原理
+
+## Activity 相关
