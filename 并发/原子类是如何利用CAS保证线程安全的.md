@@ -145,7 +145,7 @@ public class AtomicIntegerFieldUpdaterDemo implements Runnable{
 
 ## 累加器
 
-它里面有两种加法器，分别叫作 LongAdder 和 DoubleAdder。
+它里面有两种加法器，分别叫作 LongAdder 和 DoubleAdder(高并发下，累加变量使用，效率更高）。
 
 ## 积累器
 
