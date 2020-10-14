@@ -28,3 +28,9 @@
 - LinkedHashMap原理
 
 ## Activity 相关
+
+## WebView 优化
+
+[WebView性能、体验分析与优化](https://tech.meituan.com/2017/06/09/webviewperf.html)
+[手把手教你构建 Android WebView 的缓存机制 & 资源预加载方案](https://blog.csdn.net/carson_ho/article/details/71402764)
+[70%以上业务由H5开发，手机QQ Hybrid 的架构如何优化演进？](https://mp.weixin.qq.com/s/evzDnTsHrAr2b9jcevwBzA)
