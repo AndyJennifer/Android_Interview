@@ -29,6 +29,18 @@
 
 ## Activity 相关
 
+- Actiivty 任务栈
+- startActivity 启动过程分析
+- 底层剖析 Window、Activity、View 三者关系
+  
+## View事件机制相关
+
+- View的坐标体系
+- View滑动的几种方式，使用ScrollTo/ScrollBy、使用动画、改变布局参数
+- 弹性滑动的原理及实现
+- View的事件分发机制，点击事件的传递规则，事件分发的源码解读
+- 处理滑动冲突的场景及解决方法
+
 ## WebView 优化
 
 [WebView性能、体验分析与优化](https://tech.meituan.com/2017/06/09/webviewperf.html)
