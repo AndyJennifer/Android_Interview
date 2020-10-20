@@ -54,7 +54,7 @@
 
 - [彻底掌握Android事件分发机制](/Android/彻底掌握Android事件分发机制.md)
 - [安卓自定义View进阶-MotionEvent详解](https://www.gcssloop.com/customview/motionevent)
-- Android开发艺术探索》 第三章 View的事件体系
+- 《Android开发艺术探索》 第三章 View的事件体系
 
 ## WebView 优化
 
