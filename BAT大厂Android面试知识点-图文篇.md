@@ -199,6 +199,7 @@ categories:
 1. 《深如理解LINUX内核 第三版涵盖2.6版》 第三章 进程 3.2节进程描述符
 1. [写给 Android 应用工程师的 Binder 原理剖析](https://www.jianshu.com/p/429a1ff3560c)
 1. [如果需要深入了解，推荐GitYuan大大的 Binder 系列文章](http://gityuan.com/2015/10/31/binder-prepare/)
+1. [听说你Binder机制学的不错，来面试下这几个问题（一）](https://www.jianshu.com/p/adaa1a39a274)
 
 #### View事件机制相关
 
@@ -425,6 +426,7 @@ categories:
 - MVC架构设计模式面试问题讲解
 - MVP架构设计模式面试问题讲解
 - MVVM架构设计模式面试问题讲解
+- 组件化
 
 推荐阅读：
 
