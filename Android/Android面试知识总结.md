@@ -36,7 +36,6 @@
 - Activity的启动模式及应用场景
 - 进程和应用生命周期
 - startActivity 启动过程分析
-- 底层剖析 Window、Activity、View 三者关系
   
 推荐阅读：
 
@@ -63,3 +62,21 @@
 - [WebView性能、体验分析与优化](https://tech.meituan.com/2017/06/09/webviewperf.html)
 - [手把手教你构建 Android WebView 的缓存机制 & 资源预加载方案](https://blog.csdn.net/carson_ho/article/details/71402764- )
 [70%以上业务由H5开发，手机QQ Hybrid 的架构如何优化演进？](https://mp.weixin.qq.com/s/evzDnTsHrAr2b9jcevwBzA)
+
+## Android 源码分析
+
+- [startActivivty启动过程分析](/Android/startActivivty启动过程分析.md)
+- [底层剖析 Window、Activity、View 三者关系](/Android/底层剖析Window、Activity、View的关系.md)
+- [Android 是如何通过 Activity 进行交互的](/Android/Android是如何通过Activity进行交互的.md)
+- Android 如何通过 View 进行渲染
+
+## 常见问题
+
+- APK 如何做到包体积优化
+- Android 崩溃的那些事儿
+- 面对内存泄漏，如何进行优化
+- 面对UI卡顿，如何入手分析解决问题
+- 如何设计一个比较合理的LogUtil类
+- Android 屏幕适配的处理技巧有哪些
+- 网络编程，你做过哪些优化
+- 
