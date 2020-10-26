@@ -68,7 +68,7 @@
 - [startActivivty启动过程分析](/Android/startActivivty启动过程分析.md)
 - [底层剖析 Window、Activity、View 三者关系](/Android/底层剖析Window、Activity、View的关系.md)
 - [Android 是如何通过 Activity 进行交互的](/Android/Android是如何通过Activity进行交互的.md)
-- Android 如何通过 View 进行渲染
+- [Android 如何通过 View 进行渲染](/Android/Android如何通过View进行渲染.md)
 
 ## 常见问题
 
@@ -79,4 +79,3 @@
 - 如何设计一个比较合理的LogUtil类
 - Android 屏幕适配的处理技巧有哪些
 - 网络编程，你做过哪些优化
-- 
